@@ -43,7 +43,7 @@ nh3_0=array[36]
 nh3_1=array[37]
 nh3_2=array[38]
 
-conn=pymysql.connect(host="58.215.3.61",user="wxxd",passwd="wxxdwxxd",db="trafficdatabase")
+conn=pymysql.connect(host="localhost",user="test",passwd="123456",db="test")
 
 cursor=conn.cursor()
 
